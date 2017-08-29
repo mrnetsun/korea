@@ -1,0 +1,4 @@
+                    
+					<td class="tl">
+                    	<div><?php echo $item->{fieldName}?></div>                    	
+                    </td>

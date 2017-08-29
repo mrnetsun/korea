@@ -1,0 +1,1 @@
+		<?php echo $formBase->checkbox('{fieldName}',array('label'=>"{fieldLabel}",'rules'=>"{fieldRules}"))?>

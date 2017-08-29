@@ -1,0 +1,4 @@
+                    
+					<td class="tc">
+                    	<div><?php echo img_status($item->{fieldName},site_url('{module}/{controller}/dataSwitch/'.$item->{primaryKey}.'/{fieldName}'))?></div>
+                    </td>

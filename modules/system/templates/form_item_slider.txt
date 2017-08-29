@@ -1,0 +1,1 @@
+            <?php echo $formBase->slider('{fieldName}',array('label'=>"{fieldLabel}",'rules'=>"{fieldRules}",'config'=>array('range'=>'min','value'=>'10','step'=>10,'suffix'=>'%'))')?>

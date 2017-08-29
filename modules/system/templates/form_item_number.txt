@@ -1,0 +1,1 @@
+		<?php echo $formBase->number('{fieldName}',array('label'=>"{fieldLabel}",'rules'=>"{fieldRules}",'class'=>"span4",'config'=>array('min'=>-10,'max'=>10)))?>

@@ -1,0 +1,70 @@
+.overlay {
+	position:fixed; 
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	z-index:666;
+}
+.boxOverlay .overlayTitle {
+	color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #000000;
+	padding:3px;
+    
+	}
+	
+.overlayWrap .box {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    color: #555555;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.modal {
+    z-index: 999;
+	position:absolute;
+	background:url(images/tint20.png) 0 0 repeat;
+	background:rgba(0,0,0,0.2);
+	border-radius:14px;
+	padding:8px;
+	z-index:666;
+}
+
+.boxOverlay .content {
+	border-radius:8px;
+	background:#fff;
+	padding:10px;
+}
+
+.boxOverlay .close {
+	position:absolute;
+	background:url(images/close.png) 0 0 no-repeat;
+	width:24px;
+	height:27px;
+	display:block;
+	text-indent:-9999px;
+	top:-7px;
+	right:-7px;
+}
+
+.boxOverlay{ margin-top:0px; padding:0px!important; margin:0px!important;}
+.boxContent{ min-height:100px; min-width:200px;}
+.closeWindow {
+	position:absolute;
+	background:url(images/cross-circle.png)  center center no-repeat;
+	width:20px;
+	height:20px;
+	display:block;
+	text-indent:-9999px;
+	top:15px;
+	right:15px;
+}
+.boxOverlay .header .icon{ display:inline-block; width:16px; height:16px; background:url(images/application-form.png) no-repeat; float:left;margin: 9px 9px 0px 9px;}
+.boxOverlay .header{ cursor:move;}

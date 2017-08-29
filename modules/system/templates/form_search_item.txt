@@ -1,0 +1,2 @@
+		<?php echo $formBase->input('{fieldName}',array('placeholder'=>"{fieldLabel}",'class'=>"span2"))?>
+		

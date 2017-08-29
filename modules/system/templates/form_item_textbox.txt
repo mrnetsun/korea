@@ -1,0 +1,2 @@
+		<?php echo $formBase->input('{fieldName}',array('label'=>"{fieldLabel}",'rules'=>"{fieldRules}",'class'=>"span4"))?>
+		

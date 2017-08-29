@@ -1,0 +1,4 @@
+		<?php echo $formBase->dropdown('{fieldName}',
+        			array('options'=>getDropdownStatus()
+        			,'empty'=>'{fieldLabel}'));?>
+		

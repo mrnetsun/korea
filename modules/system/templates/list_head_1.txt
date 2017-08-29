@@ -1,0 +1,4 @@
+                    
+					<th class="tl">
+                    	<div class="sortable <?php echo ($sort_key =='{fieldName}')?$sort_dir:'';?>" onclick="Common.sort(this,'{fieldName}')"><?php echo __("{fieldLabel}");?></div>                    	
+                    </th>

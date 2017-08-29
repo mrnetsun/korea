@@ -1,0 +1,1 @@
+		<?php echo $formBase->dropdown('{fieldName}',array('label'=>"{fieldLabel}",'options'=>array(),'rules'=>"{fieldRules}",'class'=>"span4"))?>

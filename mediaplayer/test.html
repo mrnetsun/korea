@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Simple Flash Mp3 Player</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        
+		<script>
+		function doPlay(){
+			var ok = 1;
+			var numPlay = parseInt($('#numberPlay').val(),10);
+			var maxPlay = parseInt($('#maxPlay').val(),10);
+			
+			//neu khong gioi han thi
+			if(!maxPlay) return ok;
+			
+			numPlay ++;
+			
+			if(numPlay > maxPlay){ 
+				ok = 0;
+			}else{
+				$('#numberPlay').val(numPlay);
+			}
+			return ok;
+		}
+		
+		function checkPlay(){
+			var ok = 1;
+			var numPlay = parseInt($('#numberPlay').val(),10);
+			var maxPlay = parseInt($('#maxPlay').val(),10);
+			if(!maxPlay) return ok;
+			if(numPlay >= maxPlay){ 
+				ok = 0;
+			}else{
+				$('#numberPlay').val(numPlay);
+			}
+			return ok;
+		}
+		</script>	
+	</head>
+
+
+	<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" scroll="yes">
+	<input type="button" onclick="doPlay()" value="DoPlay()"/>
+	<input type="text" value='2' name='maxPlay' id='maxPlay'/>
+	<input type="text" value='0' name='numberPlay' id='numberPlay'/>
+		<object width="300" height="120" type="application/x-shockwave-flash" data="preview.swf?t=1354273484000" id="myContent" style="visibility: visible;"><param name="bgcolor" value="#ffffff"><param name="allowfullscreen" value="true"><param name="flashvars" value="stageW=560&amp;stageH=300&amp;pathToFiles=/&amp;artistName=Busta Rhymes&amp;songName=Break Ya Neck&amp;songURL=songs/example.mp3"></object>
+	
+	<hr/>
+	<object width="300" height="120" type="application/x-shockwave-flash" name="audioplayer_1"  data="preview.swf" id="audioplayer_1">
+<param value="transparent" name="wmode">
+<param value="false" name="menu">
+<param value="initialvolume=100&amp;titles=Playing...&amp;soundFile=songs/example.mp3&amp;playerID=audioplayer_1" name="flashvars"></object>
+	</body>
+</html>

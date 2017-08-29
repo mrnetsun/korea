@@ -1,0 +1,2 @@
+		<?php echo $formBase->daterange('{fieldName}',array('placeholder'=>"{fieldLabel}",'class'=>"w180"))?>
+		

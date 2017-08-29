@@ -1,0 +1,4 @@
+                    
+					<td class="tc">
+                    	<div><?php echo localDate($item->{fieldName})?></div>
+                    </td>

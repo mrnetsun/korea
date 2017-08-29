@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tableField1Wrap input,
+#tableField1Wrap input,
+#tableField1Wrap select{ width:110px!important;}
+
+#tableField2Wrap input,
+#tableField2Wrap input,
+#tableField2Wrap select{ width:110px!important;}
+
+.screenSetting ul,.screenSetting li{ margin:0px; padding:0px;}
+.screenSetting  li{ list-style:none; margin:2px 5px; display:block; float:left;}
+
+.screenSetting ul { clear:both;}
+.w140{ width:120px!important;}
+
+.screenSetting div{ padding:2px 0px;}
+.hasTable table{ width:100%;}
+.hasTable div{ margin:0px;}
+.hasTable th { text-align:left;}
+
+.moreDropdown{ margin-left:135px;}
+.valueItem{ display:inline-block; clear:both;}
+
+#navigation ul li.active:hover ul{
+    display: block;
+    background: #ffffff;
+}
+
+#navigation ul li > ul{
+    display: none;
+    background: #F1F1F1;
+}
+#cssmenu > ul > li.active > a> b{
+    margin-top: -18px;
+    position: absolute;
+    right: 10px;
+    float: right;
+    display:block;
+}
+#cssmenu > ul > li > a> b{
+    display: none;
+}
+.settings-button .toolbar-icons {
+    top: -15px;
+}
+.bar-danger{
+    background-color: #ee5f5b !important;
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent)) !important;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+}

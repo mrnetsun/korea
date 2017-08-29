@@ -1,0 +1,1 @@
+		<?php echo $formBase->yesno('{fieldName}',array('label'=>"{fieldLabel}",'rules'=>"{fieldRules}"))?>

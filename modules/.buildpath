@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="auth/controllers"/>
+	<buildpathentry kind="src" path="auth/models"/>
+	<buildpathentry kind="src" path="auth/views"/>
+	<buildpathentry kind="src" path="bar/controllers"/>
+	<buildpathentry kind="src" path="bar/views"/>
+	<buildpathentry kind="src" path="common/controllers"/>
+	<buildpathentry kind="src" path="common/models"/>
+	<buildpathentry kind="src" path="common/views"/>
+	<buildpathentry kind="src" path="foo/controllers"/>
+	<buildpathentry kind="src" path="foo/models"/>
+	<buildpathentry kind="src" path="foo/views"/>
+	<buildpathentry kind="src" path="member/config"/>
+	<buildpathentry kind="src" path="member/controllers"/>
+	<buildpathentry kind="src" path="member/models"/>
+	<buildpathentry kind="src" path="member/views/members"/>
+	<buildpathentry kind="src" path="payment/controllers"/>
+	<buildpathentry kind="src" path="payment/views"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>

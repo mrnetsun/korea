@@ -1,0 +1,40 @@
+<?php
+//define language for module cronjob
+
+$lang['LBL_UPDATE_WEATHER'] = "Cập nhật thời tiết";
+$lang['LBL_TOTAL_CATEGORY'] = 'Tổng số link danh mục:';
+$lang['LBL_TOTAL_COMPANY'] = 'Tổng số link công ty:';
+$lang['LBL_FOUND'] = 'Đã xử lý:';
+$lang['LBL_MODE'] = 'Xác nhận';
+$lang['LBL_MANUAL'] = 'Admin';
+$lang['LBL_AUTO'] = 'Tự động';
+$lang['LBL_COLLECTION'] = 'Collection';
+$lang['LBL_NUMDOC'] = 'Số bản ghi';
+$lang['LBL_MAXDOC'] = 'Lớn nhất';
+$lang['LBL_DELETED'] = 'Đã xóa';
+$lang['LBL_SIZE'] = 'Dung lượng';
+$lang['LBL_NOT_INDEX_YET'] = 'Chưa Index';
+$lang['LBL_RECORD'] = 'bản ghi';
+$lang['LBL_INDEXED'] = 'Đã Index';
+$lang['BTN_FULL_UPDATE'] = 'Full-Index';
+$lang['BTN_DAILY_UPDATE'] = 'Daily-Index';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';
+$lang[''] = '';

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# is this Xen?
+if [ -e /proc/xen/capabilities ]; then
+	# xen
+	grep control_d /proc/xen/capabilities >& /dev/null
+	if [ $? -ne 0 ]; then
+	# domU -- do not run on xen PV guest
+	exit 1;
+	fi
+fi
+
+# is this CPU supported?
+/usr/sbin/mcelog --supported >& /dev/null
+if [ $? -eq 1 ]; then
+	exit 1;
+fi
+
+# Now safe to run mcelog
+/usr/sbin/mcelog --ignorenodev --filter >> /var/log/mcelog

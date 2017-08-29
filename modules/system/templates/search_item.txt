@@ -1,0 +1,4 @@
+			
+			if($this->postData['{fieldName}']!=''){
+    		 	$aryCondition['like'][] =  array("mt.{fieldName}"=>$this->postData['{fieldName}']);
+    		 }

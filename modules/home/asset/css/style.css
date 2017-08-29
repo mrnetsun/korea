@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.boxin-content{
+    background: #f1f1f1;
+    min-height: 100px;
+    width: 98%;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.new-line-log {
+    display: none;
+}
+
+
+#form-cronlog .control-label{
+    text-align: left;
+    width: 120px;
+}
+
+#form-cronlog .controls{
+    margin-left: 120px;
+}
+.smessage_success{
+    color: #0195D3;
+}
+.smessage_error{
+    color: #FF0000;
+}
+
+
+#navigation ul li.active:hover ul{
+    display: block;
+    background: #ffffff;
+}
+
+#navigation ul li > ul{
+    display: none;
+    background: #F1F1F1;
+}
+
+#cssmenu > ul > li.active > a> b{
+    margin-top: -18px;
+    position: absolute;
+    right: 10px;
+    float: right;
+    display:block;
+}
+#cssmenu > ul > li > a> b{
+    display: none;
+}
+
+.welcome_message{ font-size: 16px;}

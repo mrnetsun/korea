@@ -1,0 +1,2 @@
+		<?php echo $formBase->view("{fieldLabel}",img_status($fillData->{fieldName}));?>
+		

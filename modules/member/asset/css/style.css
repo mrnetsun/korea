@@ -1,0 +1,117 @@
+.memberProfile{
+	margin:10px;
+}
+.memberProfile .left{float:left;  margin:5px; }
+.memberProfile .right{float:left;margin:5px;}
+
+.memberInfo { float:left; margin-left:10px;}
+
+.letterSearchWrap{
+	margin-bottom:5px;
+}
+
+.letterSearchWrap a{ padding: 2px 10px;border: 1px solid #DCD5BC;display: inline-block; color:#333;}
+.letterSearchWrap a:hover,
+.letterSearchWrap a.selected
+{ background: none repeat scroll 0 0 #009BD5;
+    border-color: #EEEEEE #CCCCCC #CCCCCC #EEEEEE;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius:3px;
+ }
+ 
+ .memberAvatar { float:left;}
+  .avartar{
+  		margin-top:10px;width:100px; height:100px;  
+  		border:1px solid #ccc; border-radius:5px;
+		background:url('../image/user_medium.png');
+		overflow:hidden;
+		text-align: center;
+		vertical-align: middle;
+		width: 100px;
+		display: table-cell;
+ }
+.avartar_default{
+    margin-top:10px;width:100px; height:100px;
+    border:1px solid #ccc; border-radius:5px;
+    overflow:hidden;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    display: table-cell;
+}
+ #group_roleId{ display: inline-block;}
+
+
+.settings-button .toolbar-icons{
+    top: -15px;
+}
+@media all{
+    .updateAvatarButton{
+        margin-top: -20px !important;
+    }
+    a.action-icon-trash{
+        margin-top: 3px;
+    }
+}
+
+.word-wrap{
+    white-space: normal;
+    margin: 2px 0;
+    max-width: 400px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.form-horizontal .control-label {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+}
+.formView .control-group .control-label {
+    padding-top: 5px;
+}
+.formView .controls {
+    font-weight: bold;
+    line-height: 30px;
+}
+.screenView .control-label {
+    color: #666;
+}
+.screenView .control-group .controls {
+    margin-top: 0px;
+}
+#group_status {
+    height: 30px;
+    line-height: 30px;
+}
+.memberProfile .controls {
+    line-height: 30px;
+    height: 30px;
+}
+
+#navigation ul li.active:hover ul{
+    display: block;
+    background: #ffffff;
+}
+
+#navigation ul li > ul{
+    display: none;
+    background: #F1F1F1;
+}
+#cssmenu > ul > li.active > a> b{
+    margin-top: -18px;
+    position: absolute;
+    right: 10px;
+    float: right;
+    display:block;
+}
+#cssmenu > ul > li > a> b{
+    display: none;
+}
+
+input[type='radio'] {
+    vertical-align: text-bottom;
+}
